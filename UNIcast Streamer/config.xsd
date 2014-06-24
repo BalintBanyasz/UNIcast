@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Configuration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="General">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Language" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Video">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EncodingPreset" type="xs:string" />
+              <xs:element name="Bitrate" type="xs:unsignedShort" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Audio">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LocalizedSoundDialogName" type="xs:string" />
+              <xs:element name="Recording">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="DeviceID" type="xs:unsignedByte" />
+                    <xs:element name="DeviceName" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Playback">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Default">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="DeviceID" type="xs:unsignedByte" />
+                          <xs:element name="DeviceName" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Recording">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="DeviceID" type="xs:unsignedByte" />
+                          <xs:element name="DeviceName" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="YouTube">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserName" type="xs:string" />
+              <xs:element name="Password" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Stream">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ActiveService" type="xs:string" />
+              <xs:element name="StreamService">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Service" type="xs:string" />
+                    <xs:element name="UserName" type="xs:string" />
+                    <xs:element name="Password" type="xs:string" />
+                    <xs:element name="Proxy" type="xs:string" />
+                    <xs:element name="SavePassword" type="xs:unsignedByte" />
+                    <xs:element name="RTMPStreamUrl" type="xs:string" />
+                    <xs:element name="RTMPStreamKey" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

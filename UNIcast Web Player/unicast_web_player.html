@@ -1,0 +1,36 @@
+    <html>
+    <title>UNIcast Web Player</title>
+    <body>
+	<!--
+    <embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org"
+           width="640"
+		   height="480"
+           id="vlc"
+		    windowless="true" 
+		   allowfullscreen="true"
+           mute="true"
+		   controls="false"
+		   target="udp://@236.1.0.1:2000">
+    </embed>
+	-->
+	<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org"
+           width="640"
+		   height="480"
+           id="vlc"
+		   allowfullscreen="true"
+           mute="true"
+		   controls="false"
+		   target="udp://@236.1.0.1:2000">
+    </embed>
+	
+    <script language="Javascript">
+        <!--
+		var vlc = document.getElementById("vlc");
+		vlc.audio.toggleMute();
+		
+		vlc.video.marquee.text = "valami";
+		vlc.video.marquee.position = 0;
+		//!-->
+    </script>
+    </body>
+    </html>

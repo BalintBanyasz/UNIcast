@@ -1,0 +1,2391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ratings.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ratings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 39</value>
+  </data>
+  <data name="ratings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 33</value>
+  </data>
+  <data name="ratings.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="ratings.Text" xml:space="preserve">
+    <value>ratings1</value>
+  </data>
+  <data name="&gt;&gt;ratings.Name" xml:space="preserve">
+    <value>ratings</value>
+  </data>
+  <data name="&gt;&gt;ratings.Type" xml:space="preserve">
+    <value>UNIcast_Streamer.Ratings, UNIcast Streamer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ratings.Parent" xml:space="preserve">
+    <value>tpgRecording</value>
+  </data>
+  <data name="&gt;&gt;ratings.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnMessage.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnMessage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 125</value>
+  </data>
+  <data name="btnMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="btnMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;btnMessage.Name" xml:space="preserve">
+    <value>btnMessage</value>
+  </data>
+  <data name="&gt;&gt;btnMessage.Type" xml:space="preserve">
+    <value>UNIcast_Streamer.ImageButton, UNIcast Streamer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnMessage.Parent" xml:space="preserve">
+    <value>tpgRecording</value>
+  </data>
+  <data name="&gt;&gt;btnMessage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="progressRing.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progressRing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 116</value>
+  </data>
+  <data name="progressRing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="progressRing.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="progressRing.Text" xml:space="preserve">
+    <value>recordButton1</value>
+  </data>
+  <data name="&gt;&gt;progressRing.Name" xml:space="preserve">
+    <value>progressRing</value>
+  </data>
+  <data name="&gt;&gt;progressRing.Type" xml:space="preserve">
+    <value>UNIcast_Streamer.RecordButton, UNIcast Streamer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;progressRing.Parent" xml:space="preserve">
+    <value>tpgRecording</value>
+  </data>
+  <data name="&gt;&gt;progressRing.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="tableLayoutPanel4.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblStaticQuality.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStaticQuality.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStaticQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 0</value>
+  </data>
+  <data name="lblStaticQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 19</value>
+  </data>
+  <data name="lblStaticQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="lblStaticQuality.Text" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="&gt;&gt;lblStaticQuality.Name" xml:space="preserve">
+    <value>lblStaticQuality</value>
+  </data>
+  <data name="&gt;&gt;lblStaticQuality.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStaticQuality.Parent" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;lblStaticQuality.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 21</value>
+  </data>
+  <data name="tableLayoutPanel4.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="tableLayoutPanel4.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 19</value>
+  </data>
+  <data name="tableLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Name" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Parent" xml:space="preserve">
+    <value>tpgRecording</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tableLayoutPanel4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblStaticQuality" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="btnCursor.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        gNmWuAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnCursor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCursor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>366, 125</value>
+  </data>
+  <data name="btnCursor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="btnCursor.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;btnCursor.Name" xml:space="preserve">
+    <value>btnCursor</value>
+  </data>
+  <data name="&gt;&gt;btnCursor.Type" xml:space="preserve">
+    <value>UNIcast_Streamer.ImageButton, UNIcast Streamer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnCursor.Parent" xml:space="preserve">
+    <value>tpgRecording</value>
+  </data>
+  <data name="&gt;&gt;btnCursor.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnMicrophone.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        X6/lbWxYMklmAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnMicrophone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnMicrophone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 125</value>
+  </data>
+  <data name="btnMicrophone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="btnMicrophone.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;btnMicrophone.Name" xml:space="preserve">
+    <value>btnMicrophone</value>
+  </data>
+  <data name="&gt;&gt;btnMicrophone.Type" xml:space="preserve">
+    <value>UNIcast_Streamer.ImageButton, UNIcast Streamer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnMicrophone.Parent" xml:space="preserve">
+    <value>tpgRecording</value>
+  </data>
+  <data name="&gt;&gt;btnMicrophone.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt</value>
+  </data>
+  <data name="lblTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 219</value>
+  </data>
+  <data name="lblTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 37</value>
+  </data>
+  <data name="lblTime.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="lblTime.Text" xml:space="preserve">
+    <value>00:00:00.00</value>
+  </data>
+  <data name="lblTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblTime.Name" xml:space="preserve">
+    <value>lblTime</value>
+  </data>
+  <data name="&gt;&gt;lblTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTime.Parent" xml:space="preserve">
+    <value>tpgRecording</value>
+  </data>
+  <data name="&gt;&gt;lblTime.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnStop.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAYAAACo29JGAAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7O
+        HOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAAe8AAAHvAEP9QwVAAAAGXRFWHRTb2Z0d2FyZQB3d3cu
+        aW5rc2NhcGUub3Jnm+48GgAABIZJREFUaEPdmrtrFFEUxpf4bhXFKDaCj4DYqCAkhWClES00ZUhhlcK/
+        IC4E7FOETXazefUxQQJ2QSSQwpBK09gE0qQ1kE0CMY/1+5Y7w52zd3bmzkycnSkuy87ce873m3PmvuYW
+        6vV6IckyOjp6oVKpvJyYmChWq9UyfhdR1lC2UA7UL/8vqvtF1me7JHXQViJgU1NTlyG0H4LnUWoo9QiF
+        7eZph/aSAI0Fhyd+B2I+Q9RhBJhWD+CQdmk/DmQkuJmZmauAKaH8tYA6Rt0/KPwNG1naL9FfFEgruOHh
+        4bNwNoSy00LgCe79wFP/iKf/dnJy8unY2NgtXDtHgfzlf17nfdZjfRS284OmvyH6t4EMDVcqla5AzHcf
+        ART2FULfQ/h1GwFOXbZje9rxA6V/6ghrPxRcuVx+AIcbJjAI+oYoPArrMEw92qNdnwe5QT1h7ATC4Wm9
+        9knDddx7EcZJ1Dq0D9/rBsgd6gqy2xIOT++NqQPA9arzDgU5iHuffpQ/+T4eU18r+75wSI2HMCzHrEMY
+        /BBXcJT29As9csipUaefPSMccvoaDG2KdNiGg+dRhCXVhv6haVvo2qRek48muLm5ufPI5xVhgBFLFcwR
+        rwA9EaRe6paATXCo+Em+wGmlol/EVYp63kHqbgkHqE6UPR2OL3NSaZWkHUMnQ92dug9P5HCzIqLGbrgx
+        s2i3Ql2GYaJihENY78reCNdetRuUrof6ZN9ADqeOGxE1u9fzeLmdwRxtgFvWAcnhgeP6SUaNE1sbOE5q
+        x8fH78HO/aiFTx12Omz8UqeMnrMebEROLTT1qC3ZOFD5/9swTQq7tNHr/bJ9z1F/SUSvn/obcLjBFbTu
+        YNAGDg/nSUJgjoYeG//wPSj8zzfguHeBG/o06wQj/k0b44bUiBIxtw38P7PxT71g0NeDNXIV1GaOLmbN
+        xjDrpg2nso+bTi4HuZiSRRHSYkbhmjjYmXD7TY9cX0bh+kSnUmbkuK+o53t3FuHw3nWLIC0SzpOrGKtu
+        ZxGOugXcGuG4E+xGbmRk5FIW4ahbwG0R7kC7uG8L1i69peox9zWWg9xHLtfvXH57SznOYWR/Z/vetcMM
+        hbpN45wc2YeyCAcwfsPQJyNFdii9gng1i3DIwFUB11uYnZ29iIu72o2T6enpGzaAaacl9YpVwS65nPXc
+        gqC2Ws8h3x+L9rGWPLAVdz23oC9WB4Q4q5U4NkTPoP3PhABjr8ShY8CF4zcvXDjSxUXYQ+lQO2hp76Ec
+        Od/w3N0vgH0RTz6Tu1/k8Ox+qflhl4xeBvctj5BxXU1wvGDYos7UjrPc+pfb6Z2IXj6/Fag9zHx+5SFc
+        rr/PETC3X1adnia338QdwNyeZhCAppN4aZ5DqQUd03CnX0ErAJWi8nRDY3KcwgmizVbHM3SW0J+D2ckY
+        Tjk4s///dfZrxe9YhilAoeG0YYLjoGegF3PS0zi1t8fTCqbjGK2yzgrOMQQYzmR4OMDmEGmU85a0Tz+e
+        UwpBr5Fxbhm2kVOPS5zTPCmrf7y31Ra6QwkynMszzibodjqd/g8Gz2ZO0oXlwAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 125</value>
+  </data>
+  <data name="btnStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="btnStop.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Name" xml:space="preserve">
+    <value>btnStop</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Type" xml:space="preserve">
+    <value>UNIcast_Streamer.ImageButton, UNIcast Streamer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Parent" xml:space="preserve">
+    <value>tpgRecording</value>
+  </data>
+  <data name="&gt;&gt;btnStop.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblLecturer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLecturer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 45</value>
+  </data>
+  <data name="lblLecturer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 25</value>
+  </data>
+  <data name="lblLecturer.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="lblLecturer.Text" xml:space="preserve">
+    <value> Lecturer</value>
+  </data>
+  <data name="&gt;&gt;lblLecturer.Name" xml:space="preserve">
+    <value>lblLecturer</value>
+  </data>
+  <data name="&gt;&gt;lblLecturer.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblLecturer.Parent" xml:space="preserve">
+    <value>tpgRecording</value>
+  </data>
+  <data name="&gt;&gt;lblLecturer.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblPeriod.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPeriod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 89</value>
+  </data>
+  <data name="lblPeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 19</value>
+  </data>
+  <data name="lblPeriod.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="lblPeriod.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;lblPeriod.Name" xml:space="preserve">
+    <value>lblPeriod</value>
+  </data>
+  <data name="&gt;&gt;lblPeriod.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblPeriod.Parent" xml:space="preserve">
+    <value>tpgRecording</value>
+  </data>
+  <data name="&gt;&gt;lblPeriod.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 70</value>
+  </data>
+  <data name="lblDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 19</value>
+  </data>
+  <data name="lblDate.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="lblDate.Text" xml:space="preserve">
+    <value> Date</value>
+  </data>
+  <data name="&gt;&gt;lblDate.Name" xml:space="preserve">
+    <value>lblDate</value>
+  </data>
+  <data name="&gt;&gt;lblDate.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblDate.Parent" xml:space="preserve">
+    <value>tpgRecording</value>
+  </data>
+  <data name="&gt;&gt;lblDate.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblSubject.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSubject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 21</value>
+  </data>
+  <data name="lblSubject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="lblSubject.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="lblSubject.Text" xml:space="preserve">
+    <value> Subject</value>
+  </data>
+  <data name="&gt;&gt;lblSubject.Name" xml:space="preserve">
+    <value>lblSubject</value>
+  </data>
+  <data name="&gt;&gt;lblSubject.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblSubject.Parent" xml:space="preserve">
+    <value>tpgRecording</value>
+  </data>
+  <data name="&gt;&gt;lblSubject.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tpgRecording.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="tpgRecording.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpgRecording.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 278</value>
+  </data>
+  <data name="tpgRecording.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpgRecording.Text" xml:space="preserve">
+    <value>Recording</value>
+  </data>
+  <data name="&gt;&gt;tpgRecording.Name" xml:space="preserve">
+    <value>tpgRecording</value>
+  </data>
+  <data name="&gt;&gt;tpgRecording.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tpgRecording.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tpgRecording.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblStatsFrame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStatsFrame.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStatsFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 0</value>
+  </data>
+  <data name="lblStatsFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 19</value>
+  </data>
+  <data name="lblStatsFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="lblStatsFrame.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblStatsFrame.Name" xml:space="preserve">
+    <value>lblStatsFrame</value>
+  </data>
+  <data name="&gt;&gt;lblStatsFrame.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStatsFrame.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblStatsFrame.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblStaticTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStaticTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStaticTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 42</value>
+  </data>
+  <data name="lblStaticTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 19</value>
+  </data>
+  <data name="lblStaticTime.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lblStaticTime.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="&gt;&gt;lblStaticTime.Name" xml:space="preserve">
+    <value>lblStaticTime</value>
+  </data>
+  <data name="&gt;&gt;lblStaticTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStaticTime.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblStaticTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblStaticFPS.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStaticFPS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStaticFPS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <data name="lblStaticFPS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 19</value>
+  </data>
+  <data name="lblStaticFPS.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lblStaticFPS.Text" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="&gt;&gt;lblStaticFPS.Name" xml:space="preserve">
+    <value>lblStaticFPS</value>
+  </data>
+  <data name="&gt;&gt;lblStaticFPS.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStaticFPS.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblStaticFPS.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblStatsFps.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStatsFps.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStatsFps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 20</value>
+  </data>
+  <data name="lblStatsFps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 19</value>
+  </data>
+  <data name="lblStatsFps.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="lblStatsFps.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblStatsFps.Name" xml:space="preserve">
+    <value>lblStatsFps</value>
+  </data>
+  <data name="&gt;&gt;lblStatsFps.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStatsFps.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblStatsFps.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblStatsTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStatsTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStatsTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 42</value>
+  </data>
+  <data name="lblStatsTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 19</value>
+  </data>
+  <data name="lblStatsTime.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lblStatsTime.Text" xml:space="preserve">
+    <value>00:00:00.00</value>
+  </data>
+  <data name="&gt;&gt;lblStatsTime.Name" xml:space="preserve">
+    <value>lblStatsTime</value>
+  </data>
+  <data name="&gt;&gt;lblStatsTime.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStatsTime.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblStatsTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblStaticSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStaticSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStaticSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 0</value>
+  </data>
+  <data name="lblStaticSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
+  </data>
+  <data name="lblStaticSize.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="lblStaticSize.Text" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="&gt;&gt;lblStaticSize.Name" xml:space="preserve">
+    <value>lblStaticSize</value>
+  </data>
+  <data name="&gt;&gt;lblStaticSize.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStaticSize.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblStaticSize.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblStaticFrame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStaticFrame.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStaticFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblStaticFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 19</value>
+  </data>
+  <data name="lblStaticFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblStaticFrame.Text" xml:space="preserve">
+    <value>Frame</value>
+  </data>
+  <data name="&gt;&gt;lblStaticFrame.Name" xml:space="preserve">
+    <value>lblStaticFrame</value>
+  </data>
+  <data name="&gt;&gt;lblStaticFrame.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStaticFrame.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblStaticFrame.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblStatsSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblStatsSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStatsSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 0</value>
+  </data>
+  <data name="lblStatsSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 19</value>
+  </data>
+  <data name="lblStatsSize.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="lblStatsSize.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblStatsSize.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblStatsSize.Name" xml:space="preserve">
+    <value>lblStatsSize</value>
+  </data>
+  <data name="&gt;&gt;lblStatsSize.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStatsSize.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblStatsSize.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblStaticBitrate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStaticBitrate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStaticBitrate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="lblStaticBitrate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 19</value>
+  </data>
+  <data name="lblStaticBitrate.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lblStaticBitrate.Text" xml:space="preserve">
+    <value>Bitrate</value>
+  </data>
+  <data name="&gt;&gt;lblStaticBitrate.Name" xml:space="preserve">
+    <value>lblStaticBitrate</value>
+  </data>
+  <data name="&gt;&gt;lblStaticBitrate.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStaticBitrate.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblStaticBitrate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblStatsBitrate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblStatsBitrate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStatsBitrate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 20</value>
+  </data>
+  <data name="lblStatsBitrate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 19</value>
+  </data>
+  <data name="lblStatsBitrate.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="lblStatsBitrate.Text" xml:space="preserve">
+    <value>0000.0</value>
+  </data>
+  <data name="lblStatsBitrate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblStatsBitrate.Name" xml:space="preserve">
+    <value>lblStatsBitrate</value>
+  </data>
+  <data name="&gt;&gt;lblStatsBitrate.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStatsBitrate.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblStatsBitrate.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblSizeUnit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblSizeUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSizeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 0</value>
+  </data>
+  <data name="lblSizeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 19</value>
+  </data>
+  <data name="lblSizeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="lblSizeUnit.Text" xml:space="preserve">
+    <value>kB</value>
+  </data>
+  <data name="&gt;&gt;lblSizeUnit.Name" xml:space="preserve">
+    <value>lblSizeUnit</value>
+  </data>
+  <data name="&gt;&gt;lblSizeUnit.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblSizeUnit.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblSizeUnit.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblBitrateUnit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblBitrateUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBitrateUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 20</value>
+  </data>
+  <data name="lblBitrateUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 19</value>
+  </data>
+  <data name="lblBitrateUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="lblBitrateUnit.Text" xml:space="preserve">
+    <value>kbit/s</value>
+  </data>
+  <data name="&gt;&gt;lblBitrateUnit.Name" xml:space="preserve">
+    <value>lblBitrateUnit</value>
+  </data>
+  <data name="&gt;&gt;lblBitrateUnit.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblBitrateUnit.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblBitrateUnit.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 45</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 63</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>tpgStatistics</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblStatsFrame" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblStaticTime" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblStaticFPS" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblStatsFps" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblStatsTime" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblStaticSize" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblStaticFrame" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblStatsSize" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblStaticBitrate" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblStatsBitrate" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblSizeUnit" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="lblBitrateUnit" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,20,Percent,20,Percent,20,Percent,20" /&gt;&lt;Rows Styles="Absolute,20,Absolute,20,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblStaticBMD.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStaticBMD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStaticBMD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 61</value>
+  </data>
+  <data name="lblStaticBMD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 19</value>
+  </data>
+  <data name="lblStaticBMD.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="lblStaticBMD.Text" xml:space="preserve">
+    <value>BMDStreamingServer</value>
+  </data>
+  <data name="&gt;&gt;lblStaticBMD.Name" xml:space="preserve">
+    <value>lblStaticBMD</value>
+  </data>
+  <data name="&gt;&gt;lblStaticBMD.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStaticBMD.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblStaticBMD.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblStaticCPU.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblStaticCPU.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStaticCPU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 0</value>
+  </data>
+  <data name="lblStaticCPU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 19</value>
+  </data>
+  <data name="lblStaticCPU.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="lblStaticCPU.Text" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="&gt;&gt;lblStaticCPU.Name" xml:space="preserve">
+    <value>lblStaticCPU</value>
+  </data>
+  <data name="&gt;&gt;lblStaticCPU.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStaticCPU.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblStaticCPU.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblStaticMemory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblStaticMemory.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStaticMemory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 0</value>
+  </data>
+  <data name="lblStaticMemory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 19</value>
+  </data>
+  <data name="lblStaticMemory.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="lblStaticMemory.Text" xml:space="preserve">
+    <value>Memory</value>
+  </data>
+  <data name="&gt;&gt;lblStaticMemory.Name" xml:space="preserve">
+    <value>lblStaticMemory</value>
+  </data>
+  <data name="&gt;&gt;lblStaticMemory.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStaticMemory.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblStaticMemory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblStaticFFmpeg.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStaticFFmpeg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStaticFFmpeg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <data name="lblStaticFFmpeg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 19</value>
+  </data>
+  <data name="lblStaticFFmpeg.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="lblStaticFFmpeg.Text" xml:space="preserve">
+    <value>FFmpeg</value>
+  </data>
+  <data name="&gt;&gt;lblStaticFFmpeg.Name" xml:space="preserve">
+    <value>lblStaticFFmpeg</value>
+  </data>
+  <data name="&gt;&gt;lblStaticFFmpeg.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStaticFFmpeg.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblStaticFFmpeg.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblStaticUNIcast.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblStaticUNIcast.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStaticUNIcast.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 40</value>
+  </data>
+  <data name="lblStaticUNIcast.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 19</value>
+  </data>
+  <data name="lblStaticUNIcast.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="lblStaticUNIcast.Text" xml:space="preserve">
+    <value>UNIcast Recorder</value>
+  </data>
+  <data name="&gt;&gt;lblStaticUNIcast.Name" xml:space="preserve">
+    <value>lblStaticUNIcast</value>
+  </data>
+  <data name="&gt;&gt;lblStaticUNIcast.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStaticUNIcast.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblStaticUNIcast.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblFFmpegCPU.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblFFmpegCPU.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFFmpegCPU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 20</value>
+  </data>
+  <data name="lblFFmpegCPU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 19</value>
+  </data>
+  <data name="lblFFmpegCPU.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="lblFFmpegCPU.Text" xml:space="preserve">
+    <value>0%</value>
+  </data>
+  <data name="lblFFmpegCPU.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblFFmpegCPU.Name" xml:space="preserve">
+    <value>lblFFmpegCPU</value>
+  </data>
+  <data name="&gt;&gt;lblFFmpegCPU.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblFFmpegCPU.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblFFmpegCPU.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblUNIcastCPU.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblUNIcastCPU.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUNIcastCPU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 40</value>
+  </data>
+  <data name="lblUNIcastCPU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 19</value>
+  </data>
+  <data name="lblUNIcastCPU.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="lblUNIcastCPU.Text" xml:space="preserve">
+    <value>0%</value>
+  </data>
+  <data name="lblUNIcastCPU.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblUNIcastCPU.Name" xml:space="preserve">
+    <value>lblUNIcastCPU</value>
+  </data>
+  <data name="&gt;&gt;lblUNIcastCPU.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblUNIcastCPU.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblUNIcastCPU.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblBMDStreamingServerCPU.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblBMDStreamingServerCPU.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBMDStreamingServerCPU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 61</value>
+  </data>
+  <data name="lblBMDStreamingServerCPU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 19</value>
+  </data>
+  <data name="lblBMDStreamingServerCPU.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="lblBMDStreamingServerCPU.Text" xml:space="preserve">
+    <value>0%</value>
+  </data>
+  <data name="lblBMDStreamingServerCPU.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblBMDStreamingServerCPU.Name" xml:space="preserve">
+    <value>lblBMDStreamingServerCPU</value>
+  </data>
+  <data name="&gt;&gt;lblBMDStreamingServerCPU.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblBMDStreamingServerCPU.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblBMDStreamingServerCPU.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblFFmpegRAM.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblFFmpegRAM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFFmpegRAM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 20</value>
+  </data>
+  <data name="lblFFmpegRAM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 19</value>
+  </data>
+  <data name="lblFFmpegRAM.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="lblFFmpegRAM.Text" xml:space="preserve">
+    <value>0 K</value>
+  </data>
+  <data name="lblFFmpegRAM.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblFFmpegRAM.Name" xml:space="preserve">
+    <value>lblFFmpegRAM</value>
+  </data>
+  <data name="&gt;&gt;lblFFmpegRAM.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblFFmpegRAM.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblFFmpegRAM.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblUNIcastRAM.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblUNIcastRAM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUNIcastRAM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 40</value>
+  </data>
+  <data name="lblUNIcastRAM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 19</value>
+  </data>
+  <data name="lblUNIcastRAM.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="lblUNIcastRAM.Text" xml:space="preserve">
+    <value>0 K</value>
+  </data>
+  <data name="lblUNIcastRAM.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblUNIcastRAM.Name" xml:space="preserve">
+    <value>lblUNIcastRAM</value>
+  </data>
+  <data name="&gt;&gt;lblUNIcastRAM.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblUNIcastRAM.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblUNIcastRAM.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblBMDStreamingServerRAM.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblBMDStreamingServerRAM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBMDStreamingServerRAM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 61</value>
+  </data>
+  <data name="lblBMDStreamingServerRAM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 19</value>
+  </data>
+  <data name="lblBMDStreamingServerRAM.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="lblBMDStreamingServerRAM.Text" xml:space="preserve">
+    <value>0 K</value>
+  </data>
+  <data name="lblBMDStreamingServerRAM.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblBMDStreamingServerRAM.Name" xml:space="preserve">
+    <value>lblBMDStreamingServerRAM</value>
+  </data>
+  <data name="&gt;&gt;lblBMDStreamingServerRAM.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblBMDStreamingServerRAM.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblBMDStreamingServerRAM.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 162</value>
+  </data>
+  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 81</value>
+  </data>
+  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
+    <value>tpgStatistics</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblStaticBMD" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblStaticCPU" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblStaticMemory" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblStaticFFmpeg" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblStaticUNIcast" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblFFmpegCPU" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblUNIcastCPU" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblBMDStreamingServerCPU" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblFFmpegRAM" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblUNIcastRAM" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblBMDStreamingServerRAM" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Absolute,20,Absolute,20,Absolute,20,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="metroLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 122</value>
+  </data>
+  <data name="metroLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 25</value>
+  </data>
+  <data name="metroLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="metroLabel4.Text" xml:space="preserve">
+    <value>Resource usage</value>
+  </data>
+  <data name="&gt;&gt;metroLabel4.Name" xml:space="preserve">
+    <value>metroLabel4</value>
+  </data>
+  <data name="&gt;&gt;metroLabel4.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel4.Parent" xml:space="preserve">
+    <value>tpgStatistics</value>
+  </data>
+  <data name="&gt;&gt;metroLabel4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="metroLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 10</value>
+  </data>
+  <data name="metroLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 25</value>
+  </data>
+  <data name="metroLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="metroLabel3.Text" xml:space="preserve">
+    <value>Recording</value>
+  </data>
+  <data name="&gt;&gt;metroLabel3.Name" xml:space="preserve">
+    <value>metroLabel3</value>
+  </data>
+  <data name="&gt;&gt;metroLabel3.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel3.Parent" xml:space="preserve">
+    <value>tpgStatistics</value>
+  </data>
+  <data name="&gt;&gt;metroLabel3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tpgStatistics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="tpgStatistics.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpgStatistics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 278</value>
+  </data>
+  <data name="tpgStatistics.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpgStatistics.Text" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="tpgStatistics.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tpgStatistics.Name" xml:space="preserve">
+    <value>tpgStatistics</value>
+  </data>
+  <data name="&gt;&gt;tpgStatistics.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tpgStatistics.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tpgStatistics.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="metroLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 81</value>
+  </data>
+  <data name="metroLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 19</value>
+  </data>
+  <data name="metroLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="metroLabel7.Text" xml:space="preserve">
+    <value>This software uses the following components:</value>
+  </data>
+  <data name="&gt;&gt;metroLabel7.Name" xml:space="preserve">
+    <value>metroLabel7</value>
+  </data>
+  <data name="&gt;&gt;metroLabel7.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel7.Parent" xml:space="preserve">
+    <value>tpgAbout</value>
+  </data>
+  <data name="&gt;&gt;metroLabel7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="metroLabel14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 26</value>
+  </data>
+  <data name="metroLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 19</value>
+  </data>
+  <data name="metroLabel14.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="metroLabel14.Text" xml:space="preserve">
+    <value>MIT</value>
+  </data>
+  <data name="&gt;&gt;metroLabel14.Name" xml:space="preserve">
+    <value>metroLabel14</value>
+  </data>
+  <data name="&gt;&gt;metroLabel14.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel14.Parent" xml:space="preserve">
+    <value>metroPanel4</value>
+  </data>
+  <data name="&gt;&gt;metroLabel14.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="metroLabel11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 23</value>
+  </data>
+  <data name="metroLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 19</value>
+  </data>
+  <data name="metroLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="metroLabel11.Text" xml:space="preserve">
+    <value>http://thielj.github.io/MetroFramework/</value>
+  </data>
+  <data name="&gt;&gt;metroLabel11.Name" xml:space="preserve">
+    <value>metroLabel11</value>
+  </data>
+  <data name="&gt;&gt;metroLabel11.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel11.Parent" xml:space="preserve">
+    <value>metroPanel4</value>
+  </data>
+  <data name="&gt;&gt;metroLabel11.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="metroLabel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 4</value>
+  </data>
+  <data name="metroLabel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 23</value>
+  </data>
+  <data name="metroLabel12.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="metroLabel12.Text" xml:space="preserve">
+    <value>1.2.0.3</value>
+  </data>
+  <data name="metroLabel12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;metroLabel12.Name" xml:space="preserve">
+    <value>metroLabel12</value>
+  </data>
+  <data name="&gt;&gt;metroLabel12.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel12.Parent" xml:space="preserve">
+    <value>metroPanel4</value>
+  </data>
+  <data name="&gt;&gt;metroLabel12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="metroLabel13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="metroLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 19</value>
+  </data>
+  <data name="metroLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="metroLabel13.Text" xml:space="preserve">
+    <value>MetroFramework</value>
+  </data>
+  <data name="&gt;&gt;metroLabel13.Name" xml:space="preserve">
+    <value>metroLabel13</value>
+  </data>
+  <data name="&gt;&gt;metroLabel13.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel13.Parent" xml:space="preserve">
+    <value>metroPanel4</value>
+  </data>
+  <data name="&gt;&gt;metroLabel13.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="metroPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 60</value>
+  </data>
+  <data name="metroPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 48</value>
+  </data>
+  <data name="metroPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;metroPanel4.Name" xml:space="preserve">
+    <value>metroPanel4</value>
+  </data>
+  <data name="&gt;&gt;metroPanel4.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroPanel4.Parent" xml:space="preserve">
+    <value>metroPanel1</value>
+  </data>
+  <data name="&gt;&gt;metroPanel4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="metroLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="metroLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 19</value>
+  </data>
+  <data name="metroLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="metroLabel5.Text" xml:space="preserve">
+    <value>http://www.blackmagicdesign.com/support/sdks</value>
+  </data>
+  <data name="&gt;&gt;metroLabel5.Name" xml:space="preserve">
+    <value>metroLabel5</value>
+  </data>
+  <data name="&gt;&gt;metroLabel5.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel5.Parent" xml:space="preserve">
+    <value>metroPanel3</value>
+  </data>
+  <data name="&gt;&gt;metroLabel5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblDeckLinkVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 4</value>
+  </data>
+  <data name="lblDeckLinkVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 23</value>
+  </data>
+  <data name="lblDeckLinkVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblDeckLinkVersion.Text" xml:space="preserve">
+    <value>n.a.</value>
+  </data>
+  <data name="lblDeckLinkVersion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblDeckLinkVersion.Name" xml:space="preserve">
+    <value>lblDeckLinkVersion</value>
+  </data>
+  <data name="&gt;&gt;lblDeckLinkVersion.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblDeckLinkVersion.Parent" xml:space="preserve">
+    <value>metroPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblDeckLinkVersion.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="metroLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="metroLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 19</value>
+  </data>
+  <data name="metroLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="metroLabel10.Text" xml:space="preserve">
+    <value>DeckLink SDK</value>
+  </data>
+  <data name="&gt;&gt;metroLabel10.Name" xml:space="preserve">
+    <value>metroLabel10</value>
+  </data>
+  <data name="&gt;&gt;metroLabel10.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel10.Parent" xml:space="preserve">
+    <value>metroPanel3</value>
+  </data>
+  <data name="&gt;&gt;metroLabel10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="metroPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 8</value>
+  </data>
+  <data name="metroPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 48</value>
+  </data>
+  <data name="metroPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;metroPanel3.Name" xml:space="preserve">
+    <value>metroPanel3</value>
+  </data>
+  <data name="&gt;&gt;metroPanel3.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroPanel3.Parent" xml:space="preserve">
+    <value>metroPanel1</value>
+  </data>
+  <data name="&gt;&gt;metroPanel3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="metroLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 23</value>
+  </data>
+  <data name="metroLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 19</value>
+  </data>
+  <data name="metroLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="metroLabel2.Text" xml:space="preserve">
+    <value>http://ffmpeg.org/index.html</value>
+  </data>
+  <data name="&gt;&gt;metroLabel2.Name" xml:space="preserve">
+    <value>metroLabel2</value>
+  </data>
+  <data name="&gt;&gt;metroLabel2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel2.Parent" xml:space="preserve">
+    <value>metroPanel2</value>
+  </data>
+  <data name="&gt;&gt;metroLabel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblFFmpegVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 4</value>
+  </data>
+  <data name="lblFFmpegVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 23</value>
+  </data>
+  <data name="lblFFmpegVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblFFmpegVersion.Text" xml:space="preserve">
+    <value>n.a.</value>
+  </data>
+  <data name="lblFFmpegVersion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblFFmpegVersion.Name" xml:space="preserve">
+    <value>lblFFmpegVersion</value>
+  </data>
+  <data name="&gt;&gt;lblFFmpegVersion.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblFFmpegVersion.Parent" xml:space="preserve">
+    <value>metroPanel2</value>
+  </data>
+  <data name="&gt;&gt;lblFFmpegVersion.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="metroLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 23</value>
+  </data>
+  <data name="metroLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 19</value>
+  </data>
+  <data name="metroLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="metroLabel8.Text" xml:space="preserve">
+    <value>LGPL 2.1</value>
+  </data>
+  <data name="&gt;&gt;metroLabel8.Name" xml:space="preserve">
+    <value>metroLabel8</value>
+  </data>
+  <data name="&gt;&gt;metroLabel8.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel8.Parent" xml:space="preserve">
+    <value>metroPanel2</value>
+  </data>
+  <data name="&gt;&gt;metroLabel8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="metroLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="metroLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 19</value>
+  </data>
+  <data name="metroLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="metroLabel9.Text" xml:space="preserve">
+    <value>FFmpeg</value>
+  </data>
+  <data name="&gt;&gt;metroLabel9.Name" xml:space="preserve">
+    <value>metroLabel9</value>
+  </data>
+  <data name="&gt;&gt;metroLabel9.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel9.Parent" xml:space="preserve">
+    <value>metroPanel2</value>
+  </data>
+  <data name="&gt;&gt;metroLabel9.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="metroPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 112</value>
+  </data>
+  <data name="metroPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 48</value>
+  </data>
+  <data name="metroPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;metroPanel2.Name" xml:space="preserve">
+    <value>metroPanel2</value>
+  </data>
+  <data name="&gt;&gt;metroPanel2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroPanel2.Parent" xml:space="preserve">
+    <value>metroPanel1</value>
+  </data>
+  <data name="&gt;&gt;metroPanel2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="metroPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 106</value>
+  </data>
+  <data name="metroPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>435, 169</value>
+  </data>
+  <data name="metroPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;metroPanel1.Name" xml:space="preserve">
+    <value>metroPanel1</value>
+  </data>
+  <data name="&gt;&gt;metroPanel1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroPanel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroPanel1.Parent" xml:space="preserve">
+    <value>tpgAbout</value>
+  </data>
+  <data name="&gt;&gt;metroPanel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="metroLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 55</value>
+  </data>
+  <data name="metroLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 19</value>
+  </data>
+  <data name="metroLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="metroLabel6.Text" xml:space="preserve">
+    <value>© 2013 Bányász Bálint</value>
+  </data>
+  <data name="&gt;&gt;metroLabel6.Name" xml:space="preserve">
+    <value>metroLabel6</value>
+  </data>
+  <data name="&gt;&gt;metroLabel6.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel6.Parent" xml:space="preserve">
+    <value>tpgAbout</value>
+  </data>
+  <data name="&gt;&gt;metroLabel6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 36</value>
+  </data>
+  <data name="lblVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 19</value>
+  </data>
+  <data name="lblVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblVersion.Text" xml:space="preserve">
+    <value>UNIcast Streamer v</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Name" xml:space="preserve">
+    <value>lblVersion</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Parent" xml:space="preserve">
+    <value>tpgAbout</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="metroLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 11</value>
+  </data>
+  <data name="metroLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 25</value>
+  </data>
+  <data name="metroLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="metroLabel1.Text" xml:space="preserve">
+    <value>UNIcast Streamer</value>
+  </data>
+  <data name="&gt;&gt;metroLabel1.Name" xml:space="preserve">
+    <value>metroLabel1</value>
+  </data>
+  <data name="&gt;&gt;metroLabel1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel1.Parent" xml:space="preserve">
+    <value>tpgAbout</value>
+  </data>
+  <data name="&gt;&gt;metroLabel1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 10</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 64</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>tpgAbout</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tpgAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="tpgAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 278</value>
+  </data>
+  <data name="tpgAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tpgAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="tpgAbout.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tpgAbout.Name" xml:space="preserve">
+    <value>tpgAbout</value>
+  </data>
+  <data name="&gt;&gt;tpgAbout.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tpgAbout.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tpgAbout.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 63</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 317</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 1</value>
+  </data>
+  <data name="lblStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 19</value>
+  </data>
+  <data name="lblStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Idle</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Name" xml:space="preserve">
+    <value>lblStatus</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Parent" xml:space="preserve">
+    <value>statusBar</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="picStatus.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAE
+        DQAABA0BEBP3+AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAACuSURBVDhPY/j/
+        /z8DMmZoSODgKElN5ShKn8VelHaWozjtM5gG8kHiIHkMPcgCXIXpJhwladeAGv/jxEB5kDoUi2EcoG3Z
+        QI2/8RqAMPw3SD1ML9grYBcQbwDMlb9hLmKAhAEBL+DyHlAfSD8DOBDxhQEhOVBgg0OdkEJ88kD9DNBo
+        xB0bBCwA6WcApQOKXALUTyWXUCNMqBI7VEknVEmxVMs7MIMozsXwHElGeQIApD4u99Uv+70AAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="picStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 3</value>
+  </data>
+  <data name="picStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="picStatus.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="picStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;picStatus.Name" xml:space="preserve">
+    <value>picStatus</value>
+  </data>
+  <data name="&gt;&gt;picStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picStatus.Parent" xml:space="preserve">
+    <value>statusBar</value>
+  </data>
+  <data name="&gt;&gt;picStatus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblDevice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDevice.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblDevice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 0</value>
+  </data>
+  <data name="lblDevice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 21</value>
+  </data>
+  <data name="lblDevice.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblDevice.Text" xml:space="preserve">
+    <value>No device connected</value>
+  </data>
+  <data name="lblDevice.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblDevice.Name" xml:space="preserve">
+    <value>lblDevice</value>
+  </data>
+  <data name="&gt;&gt;lblDevice.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;lblDevice.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblDevice.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 1</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 21</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>statusBar</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblDevice" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,100,Absolute,21" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="statusBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 382</value>
+  </data>
+  <data name="statusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 21</value>
+  </data>
+  <data name="statusBar.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Name" xml:space="preserve">
+    <value>statusBar</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusBar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="metroStyleManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>114, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>135</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>507, 415</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        iAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>WindowsDefaultLocation</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>UNIcast Streamer</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;metroStyleManager.Name" xml:space="preserve">
+    <value>metroStyleManager</value>
+  </data>
+  <data name="&gt;&gt;metroStyleManager.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroStyleManager, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmUNIcastStreamer</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+</root>
